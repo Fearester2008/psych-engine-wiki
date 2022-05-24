@@ -12,6 +12,8 @@ Go to the "Other" tab and write your difficulties names under "Difficulties".
 
 ![](https://i.imgur.com/ppvOPJj.png)
 
+Save your week and you should be almost ready to go! Skip Method 2 of this tutorial page and go to "Files needed".
+
 # Method 2 (Source code-only)
 ## Adding to the list
 
@@ -26,7 +28,7 @@ So... add your new difficulty to it, like this.
 
 ![](https://i.imgur.com/bgHCHYF.png)
 
-## Files needed
+# Files needed
 
 You will need the difficulty image for the Story mode menu, and you're also gonna have to do the Crazy difficulty chart to all songs.
 Here's my Crazy difficulty image for an example:
