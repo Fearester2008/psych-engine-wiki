@@ -6,7 +6,7 @@
 
 ____
 ## Song/Week Variables
-* `curBpm` - Current BPM of the Song, shortcut to `getPropertyClass('Conductor', 'bpm')`
+* `curBpm` - Current BPM of the Song, shortcut to `getPropertyFromClass('Conductor', 'bpm')`
 * `bpm` - Starting BPM of the Song, shortcut to `getProperty('SONG.bpm')`
 * `scrollSpeed` - Starting Scroll speed of the Song, shortcut to `getProperty('SONG.speed')`
 * `crochet` - Interval between Beat hits
@@ -25,8 +25,8 @@ ____
 
 ____
 ## Screen variables
-* `screenWidth` -  Shortcut to `getPropertyClass('FlxG', width)`
-* `screenHeight` -  Shortcut to `getPropertyClass('FlxG', heigth)`
+* `screenWidth` -  Shortcut to `getPropertyFromClass('FlxG', width)`
+* `screenHeight` -  Shortcut to `getPropertyFromClass('FlxG', heigth)`
 
 ____
 ## Gameplay Variables
@@ -79,13 +79,13 @@ ____
 
 ____
 ## Preferences Variables
-* `downscroll` - Downscroll is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'downScroll')`
-* `middlescroll` - Middlescroll is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'middleScroll')`
-* `framerate` - Current framerate limit. Shortcut to `getPropertyClass('ClientPrefs', 'framerate')`
-* `ghostTapping` - Ghost tapping is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'ghostTapping')`
-* `hideHud` - "Hide HUD" is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'hideHud')`
-* `hideTime` - "Hide Song Length" is enabled. Shortcut to `getPropertyClass('ClientPrefs', 'hideTime')`
-* `cameraZoomOnBeat` - Shortcut to `getPropertyClass('ClientPrefs', 'camZooms')`
-* `flashingLights` - Shortcut to `getPropertyClass('ClientPrefs', 'flashing')`
-* `noteOffset` - Represents the note delay in milliseconds (Goes from `0` to `500`). Shortcut to `getPropertyClass('ClientPrefs', 'noteOffset')`
-* `lowQuality` - Shortcut to `getPropertyClass('ClientPrefs', 'lowQuality')`
+* `downscroll` - Downscroll is enabled. Shortcut to `getPropertyFromClass('ClientPrefs', 'downScroll')`
+* `middlescroll` - Middlescroll is enabled. Shortcut to `getPropertyFromClass('ClientPrefs', 'middleScroll')`
+* `framerate` - Current framerate limit. Shortcut to `getPropertyFromClass('ClientPrefs', 'framerate')`
+* `ghostTapping` - Ghost tapping is enabled. Shortcut to `getPropertyFromClass('ClientPrefs', 'ghostTapping')`
+* `hideHud` - "Hide HUD" is enabled. Shortcut to `getPropertyFromClass('ClientPrefs', 'hideHud')`
+* `hideTime` - "Hide Song Length" is enabled. Shortcut to `getPropertyFromClass('ClientPrefs', 'hideTime')`
+* `cameraZoomOnBeat` - Shortcut to `getPropertyFromClass('ClientPrefs', 'camZooms')`
+* `flashingLights` - Shortcut to `getPropertyFromClass('ClientPrefs', 'flashing')`
+* `noteOffset` - Represents the note delay in milliseconds (Goes from `0` to `500`). Shortcut to `getPropertyFromClass('ClientPrefs', 'noteOffset')`
+* `lowQuality` - Shortcut to `getPropertyFromClass('ClientPrefs', 'lowQuality')`
