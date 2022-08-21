@@ -41,7 +41,7 @@ Sets text alignment at the specified tag
 Gets text object's text at the specified tag
 
 ### getTextSize(tag:String)
-Gets text object's font at the specified tag
+Gets text object's size at the specified tag
 
 ### getTextFont(tag:String)
 Gets text object's font at the specified tag
